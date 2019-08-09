@@ -22,7 +22,7 @@ public class HelloAction extends Action{
 		
 		ActionForward actionForward = mapping.getInputForward();
 		
-		if (helloForm !=null && helloForm.getName().equalsIgnoreCase("mike")) {
+		if (helloForm !=null && helloForm.getName().equalsIgnoreCase("mikes")) {
 			actionForward = mapping.findForward("success");
 		}else {
 			ActionErrors actionErrors = new ActionErrors();
